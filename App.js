@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, ImageBackground, StatusBar} from 'react-native';
+import {View,StyleSheet, Text, ImageBackground, StatusBar} from 'react-native';
 import SplashScreen from 'react-native-splash-screen'
 
 
@@ -15,7 +15,7 @@ export default class App extends Component<Props> {
   render() {
     return (
 
-      <ImageBackground
+      <View
         source={require('./images/background.jpg')}
         style={styles.container}
       >
@@ -25,7 +25,7 @@ export default class App extends Component<Props> {
           translucent={true}
         />
         <Text style={styles.text}>Hey ~</Text>
-      </ImageBackground>
+      </View>
     );
   }
 }
@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor:'#f9e8f5'
   },
   text:{
     fontSize:60,
