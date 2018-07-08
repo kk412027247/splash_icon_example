@@ -6,9 +6,8 @@
         />
 
     <item
-        android:width="300dp"
-        android:height="300dp"
+        android:width="200dp"
+        android:height="200dp"
         android:drawable="@mipmap/logo"
         android:gravity="center"/>
-
 </layer-list>
