@@ -10,6 +10,7 @@
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-camera": "^1.1.4",
+    "react-native-image-picker": "^0.26.10",
     "react-native-splash-screen": "^3.0.9"
   },
   "devDependencies": {
